@@ -30,4 +30,4 @@ npm start
 ```
 ---
 
-<img src="https://raw.githubusercontent.com/RomaTur/telegramMsg/master/markdown/presentation.gif" alt="presentation" width='480px' height='404px'>
+<img src="https://media.giphy.com/media/xThta3HxApJjJe56zm/giphy.gif" alt="presentation" width='480px' height='404px'>
