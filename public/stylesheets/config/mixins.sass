@@ -1,0 +1,34 @@
+
+@function rem($px)
+    @return $px / 16px+0rem
+
+@function svg($url, $color)
+  $base-color: str-slice(inspect($color), 2)
+  @return unquote('url("' + $url + "?fill=%23" + $base-color +'")')
+  
+@mixin bg-img($url)
+    background-image: url($url)
+
+@mixin desktop
+    @media (max-width:1799px)
+        @content
+
+@mixin laptop
+    @media (max-width:1199px)
+        @content
+
+@mixin tablet
+    @media (max-width:1024px)
+        @content
+
+@mixin phone
+    @media (max-width:480px)
+        @content
+
+@mixin minHeight
+    @media (max-height:560px)
+        @content
+
+@mixin ie
+    @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)
+        @content

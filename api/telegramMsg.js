@@ -1,5 +1,5 @@
 module.exports.sendMsg = (req, res) => {
-  const config = require('../../config/config.json');
+  const config = require('../config/configLocal.json');
   let http = require('request')
   let reqBody = req.body
   let fields = [
@@ -11,9 +11,7 @@ module.exports.sendMsg = (req, res) => {
   fields.forEach(field => {
     msg += field + '\n'
   });
-  console.log(msg)
   msg = encodeURI(msg)
-  console.log(msg)
   http.post(`https://api.telegram.org/bot${config.telegram.token}/sendMessage?chat_id=${config.telegram.chat}&parse_mode=html&text=${msg}`, function (error, response, body) {
     console.log('error:', error); 
     console.log('statusCode:', response && response.statusCode); 
