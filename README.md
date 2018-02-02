@@ -22,6 +22,8 @@ npm i
 
 ### Запишите токен своего бота и id чата в config.json
 
+<img src="https://github.com/RomaTur/telegramMsg/tree/master/markdown/config.png" alt="config.json" width='150px' height='100px'>
+
 Запустите сервер
 ``` bash
 npm start
