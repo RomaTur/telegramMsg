@@ -264,4 +264,20 @@ button {
     .form__clean:hover {
       background: #009688; }
 
+.social {
+  margin-top: 35px;
+  display: flex; }
+  .social__item {
+    margin-right: 20px; }
+    .social__item:last-child {
+      margin-right: 0; }
+  .social__icon {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+    transition: 0.3s;
+    stroke-width: 0px; }
+    .social__icon:hover {
+      fill: #00bfa5; }
+
 /*# sourceMappingURL=style.css.map */
