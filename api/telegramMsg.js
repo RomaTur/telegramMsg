@@ -1,5 +1,5 @@
 module.exports.sendMsg = (req, res) => {
-  const config = require('../config/configLocal.json');
+  const config = require('../config/config.json');
   let http = require('request')
   let reqBody = req.body
   let fields = [
