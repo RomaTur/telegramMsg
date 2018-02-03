@@ -7,7 +7,6 @@ router.get('/', function(req, res, next) {
 });
 
 const ctrlTelegram = require('../api/telegramMsg');
-
 router.post('/telegram', ctrlTelegram.sendMsg);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 {
   "telegram": {
-    "token": "chat_id",
+    "token": "bot_token",
     "chat": "chat_id"
   }
 }
