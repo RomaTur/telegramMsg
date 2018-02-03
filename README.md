@@ -29,7 +29,7 @@ npm i
 npm start
 ```
 
- и откройте в браузере <a href='http://localhost:3000' target='_blank'>http://localhost:3000</a>
+ <h3>и откройте в браузере <a href='http://localhost:3000' target='_blank'>http://localhost:3000</a></h3>
 ---
 
 <img src="https://media.giphy.com/media/xThta3HxApJjJe56zm/giphy.gif" alt="presentation" width='480px' height='404px'>
