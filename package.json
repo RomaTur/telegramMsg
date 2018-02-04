@@ -1,6 +1,8 @@
 {
   "name": "telegrammsg",
-  "version": "0.0.0",
+  "description": "How to send message to Telegram from site with NodeJS",
+  "version": "1.0.0",
+  "author": "Roman Turusov <mr.romatur@gmail.com>",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
@@ -14,6 +16,7 @@
     "node-sass-middleware": "0.9.8",
     "nodemon": "^1.14.12",
     "pug": "2.0.0-beta11",
+    "request": "^2.83.0",
     "serve-favicon": "~2.4.5"
   }
 }
