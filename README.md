@@ -20,7 +20,7 @@ cd telegramMsg
 npm i
 ```
 
-<h3><a href='https://habrahabr.ru/post/348332/'><u>Запишите токен своего бота и id чата в config.json</u></a></h3>
+<h3><a target='__blank' href='https://habrahabr.ru/post/348332/'><u>Запишите токен своего бота и id чата в config.json</u></a></h3>
 
 <img src="https://raw.githubusercontent.com/RomaTur/telegramMsg/master/markdown/config.png" alt="config" width='225px' height='128px'>
 
