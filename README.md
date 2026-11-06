@@ -1,9 +1,6 @@
-
 <h3 align='center'><b>Отправка сообщений в телеграмм через NodeJS</b></h3>
 
-<h2 align='center'>
-<a href='http://romatur.xyz:3003' target='_blank'>Пример</a>
-</h2>
+> **Статус проекта.** Архивный пример интеграции веб-формы с Telegram Bot API на Node.js и Express. Проект больше не поддерживается.
 
 ---
 
